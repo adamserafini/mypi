@@ -4,7 +4,7 @@ A few tools I always need.
 
 ## Installation
 
-You can install these prompt templates directly into your Pi agent configuration from this GitHub repository.
+You can install these prompt templates and skills directly into your Pi agent configuration from this GitHub repository.
 
 ### As a Global Pi Package
 
