@@ -4,6 +4,7 @@
   "description": "Adam's personal Pi configurations and prompt templates",
   "keywords": ["pi-package"],
   "pi": {
-    "prompts": [".pi/prompts"]
+    "prompts": [".pi/prompts"],
+    "skills": [".pi/skills"]
   }
 }
