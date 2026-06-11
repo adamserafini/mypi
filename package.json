@@ -1,0 +1,9 @@
+{
+  "name": "mypi",
+  "version": "1.0.0",
+  "description": "Adam's personal Pi configurations and prompt templates",
+  "keywords": ["pi-package"],
+  "pi": {
+    "prompts": [".pi/prompts"]
+  }
+}
