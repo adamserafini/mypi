@@ -8,7 +8,20 @@ description: Instructions for comitting changes with git.
 3. **Analyze & Group**: Determine if the changes belong to a single logical task or multiple distinct tasks.
     - If changes are unrelated (e.g., a bug fix in one module and a feature in another), plan to split them into separate commits.
     - Ask the user if there are untracked changes which you suspect should be added to .gitignore
-4. **Execute the commit(s)**, `git commit -m "<message>"`, following the 50/72 rule (first line is 50 characters or less and description wraps at 72 characters).
+4. **Execute the commit(s)**:
+    - Follow the 50/72 rule (first line is 50 characters or less, body wrapped at 72 characters).
+    - If the message is a single line, use `git commit -m "<message>"`.
+    - If the message has a body, **always** use a heredoc (`git commit -F - <<'EOF'`) to guarantee that line breaks and wrapping are preserved exactly as drafted.
+    
+    *Example of correct multiline execution:*
+    ```bash
+    git commit -F - <<'EOF'
+    Subject line under 50 chars
+
+    First body paragraph wrapped manually under 72 chars
+    and continued on a new line.
+    EOF
+    ```
 
 For reference, here is a model Git message (credit: [Tim Pope](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html))
 
