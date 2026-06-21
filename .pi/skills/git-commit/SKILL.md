@@ -10,6 +10,7 @@ description: Instructions for comitting changes with git.
     - Ask the user if there are untracked changes which you suspect should be added to .gitignore
 4. **Execute the commit(s)**:
     - Follow the 50/72 rule (first line is 50 characters or less, body wrapped at 72 characters).
+    - For trivial changes, a single line is enough.
     - If the message is a single line, use `git commit -m "<message>"`.
     - If the message has a body, **always** use a heredoc (`git commit -F - <<'EOF'`) to guarantee that line breaks and wrapping are preserved exactly as drafted.
     
