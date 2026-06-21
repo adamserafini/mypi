@@ -1,6 +1,6 @@
 ---
 name: git-commit
-description: Instructions for comitting changes with git.
+description: Use this skill when comitting changes with git.
 ---
 
 1. **Check Status**: Run `git status` to see what files are staged, modified, or untracked.

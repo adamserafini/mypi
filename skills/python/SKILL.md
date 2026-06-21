@@ -1,6 +1,6 @@
 ---
 name: python
-description: Instructions for using python, pip, virtualenv, and running python scripts
+description: Use this skill when using python, pip, virtualenv, and running python scripts.
 ---
 
 Always use `uv` when running or managing Python. Never run "naked" python, pip, or virtualenv commands.
